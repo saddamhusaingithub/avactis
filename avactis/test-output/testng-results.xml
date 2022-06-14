@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15925" started-at="2022-05-31T15:35:57Z" finished-at="2022-05-31T15:36:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15925" started-at="2022-05-31T15:35:57Z" finished-at="2022-05-31T15:36:13Z">
+      <class name="scripts.VerifyLoginTest">
+        <test-method status="PASS" signature="beforeClassSetUp()[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="beforeClassSetUp" is-config="true" duration-ms="4294" started-at="2022-05-31T15:35:57Z" finished-at="2022-05-31T15:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassSetUp -->
+        <test-method status="PASS" signature="verifyLoginAffirmative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="verifyLoginAffirmative" duration-ms="6849" started-at="2022-05-31T15:36:02Z" data-provider="ValidAuthentication" finished-at="2022-05-31T15:36:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saddamali13786@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9759064799]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginAffirmative -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="screenShot" is-config="true" duration-ms="3" started-at="2022-05-31T15:36:09Z" finished-at="2022-05-31T15:36:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginAffirmative status=SUCCESS method=VerifyLoginTest.verifyLoginAffirmative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@6b26e945] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="verifyLoginNegative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="verifyLoginNegative" duration-ms="3436" started-at="2022-05-31T15:36:09Z" data-provider="InvalidAuthentication" finished-at="2022-05-31T15:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saddamali13786@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9627841412]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginNegative -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="afterMethod" is-config="true" duration-ms="615" started-at="2022-05-31T15:36:12Z" finished-at="2022-05-31T15:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="screenShot" is-config="true" duration-ms="0" started-at="2022-05-31T15:36:12Z" finished-at="2022-05-31T15:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginNegative status=SUCCESS method=VerifyLoginTest.verifyLoginNegative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@6b26e945] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- scripts.VerifyLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

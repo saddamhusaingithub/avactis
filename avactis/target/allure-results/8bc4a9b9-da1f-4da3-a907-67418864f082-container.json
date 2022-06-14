@@ -1,0 +1,1 @@
+{"uuid":"8bc4a9b9-da1f-4da3-a907-67418864f082","name":"scripts.LoginTest.screenShot","description":"","start":1654011372829,"stop":1654011372829,"children":["f843b68d-987b-4da9-9f89-14e450670e1b"],"afters":[{"name":"screenShot","status":"passed","stage":"finished","description":"","start":1654011372829,"stop":1654011372829}]}

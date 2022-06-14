@@ -1,0 +1,5 @@
+scripts\LoginTest.class
+scripts\VerifyCartProductTest.class
+scripts\VerifyRegisterationTest.class
+scripts\AllureTest.class
+scripts\VerifyLoginTest.class
