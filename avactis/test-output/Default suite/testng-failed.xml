@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scripts.AllureTest">
+      <class name="scripts.VerifyRegisterationTest">
         <methods>
-          <include name="example1"/>
-          <include name="skippedByDependencyTest"/>
-          <include name="example4"/>
+          <include name="afterMethod"/>
+          <include name="verifyRegisterationAffirmative"/>
+          <include name="screenShot"/>
+          <include name="verifyRegisterationNegative"/>
+          <include name="beforeClassSetUp"/>
         </methods>
-      </class> <!-- scripts.AllureTest -->
+      </class> <!-- scripts.VerifyRegisterationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

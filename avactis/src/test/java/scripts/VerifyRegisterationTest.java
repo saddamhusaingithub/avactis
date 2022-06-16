@@ -19,15 +19,17 @@ public class VerifyRegisterationTest extends LoginTest {
 		Log.startTestCase("verifyRegisterationAffirmative");
 		
 		Log.info("Entering valid user details for successfull registeration");
-		objAvactisHomePage.clickOnMyAccount().clickOnRegisterButton().enterEmail("zia2208@gmail.com")
-				.enterPassword("9759064799").enterReTypePassword("9759064799").enterFirstName("Mumtaz")
-				.enterLastName("Husain").selectCountry("India").selectState("Gujarat").enterZipCode("380055")
+		objAvactisHomePage.clickOnMyAccount().clickOnRegisterButton().enterEmail("Sameer@gmail.com")
+				.enterPassword("9759064799").enterReTypePassword("9759064799").enterFirstName("Sameer")
+				.enterLastName("Khan").selectCountry("India").selectState("Gujarat").enterZipCode("380055")
 				.enterCity("Ahmedabad").enteraddressLine1(" c-101, Al arsh-3").enteraddressLine2("juhapura")
 				.enterPhoneNumber("9759064799").clickOnRegisterBtn();
 		
 		Log.info("Verify Registeration successfull message");
 		assertEquals(objAvactisHomePage.getAccountCreatedMessage(),
 				"Account created successfully. You are now registered.");
+		
+		objAvactisHomePage.ClickOnSignOutBtn();
 		
 		Log.endTestCase("verifyRegisterationAffirmative");
 	}

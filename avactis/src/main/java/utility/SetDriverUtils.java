@@ -15,7 +15,7 @@ public class SetDriverUtils extends LoadableComponent<BasePage>{
 	private WebDriver driver;
 	
 	public WebDriver InitializeDriver(){
-		System.setProperty("webdriver.chrome.driver", "F:\\KetanTraining\\AvactisProjectWS\\avactis\\src\\test\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\git\\avactistestproject\\avactis\\src\\test\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(Constants.URL);
 		driver.manage().window().maximize();

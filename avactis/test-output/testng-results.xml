@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15925" started-at="2022-05-31T15:35:57Z" finished-at="2022-05-31T15:36:13Z">
+  <suite name="Suite" duration-ms="74531" started-at="2022-06-16T11:30:28Z" finished-at="2022-06-16T11:31:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15925" started-at="2022-05-31T15:35:57Z" finished-at="2022-05-31T15:36:13Z">
-      <class name="scripts.VerifyLoginTest">
-        <test-method status="PASS" signature="beforeClassSetUp()[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="beforeClassSetUp" is-config="true" duration-ms="4294" started-at="2022-05-31T15:35:57Z" finished-at="2022-05-31T15:36:01Z">
+    <test name="Test" duration-ms="74531" started-at="2022-06-16T11:30:28Z" finished-at="2022-06-16T11:31:42Z">
+      <class name="scripts.VerifyRegisterationTest">
+        <test-method status="PASS" signature="beforeClassSetUp()[pri:0, instance:scripts.VerifyRegisterationTest@6dbb137d]" name="beforeClassSetUp" is-config="true" duration-ms="3086" started-at="2022-06-16T11:31:09Z" finished-at="2022-06-16T11:31:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassSetUp -->
-        <test-method status="PASS" signature="verifyLoginAffirmative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="verifyLoginAffirmative" duration-ms="6849" started-at="2022-05-31T15:36:02Z" data-provider="ValidAuthentication" finished-at="2022-05-31T15:36:09Z">
+        <test-method status="PASS" signature="verifyRegisterationAffirmative()[pri:0, instance:scripts.VerifyRegisterationTest@6dbb137d]" name="verifyRegisterationAffirmative" duration-ms="11160" started-at="2022-06-16T11:31:13Z" finished-at="2022-06-16T11:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterationAffirmative -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyRegisterationTest@6dbb137d]" name="screenShot" is-config="true" duration-ms="2" started-at="2022-06-16T11:31:24Z" finished-at="2022-06-16T11:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRegisterationAffirmative status=SUCCESS method=VerifyRegisterationTest.verifyRegisterationAffirmative()[pri:0, instance:scripts.VerifyRegisterationTest@6dbb137d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="verifyRegisterationNegative()[pri:0, instance:scripts.VerifyRegisterationTest@6dbb137d]" name="verifyRegisterationNegative" duration-ms="4634" started-at="2022-06-16T11:31:24Z" finished-at="2022-06-16T11:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterationNegative -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyRegisterationTest@6dbb137d]" name="screenShot" is-config="true" duration-ms="0" started-at="2022-06-16T11:31:28Z" finished-at="2022-06-16T11:31:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRegisterationNegative status=SUCCESS method=VerifyRegisterationTest.verifyRegisterationNegative()[pri:0, instance:scripts.VerifyRegisterationTest@6dbb137d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.VerifyRegisterationTest@6dbb137d]" name="afterMethod" is-config="true" duration-ms="608" started-at="2022-06-16T11:31:28Z" finished-at="2022-06-16T11:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scripts.VerifyRegisterationTest -->
+      <class name="scripts.VerifyLoginTest">
+        <test-method status="PASS" signature="beforeClassSetUp()[pri:0, instance:scripts.VerifyLoginTest@3c9d0b9d]" name="beforeClassSetUp" is-config="true" duration-ms="3013" started-at="2022-06-16T11:31:29Z" finished-at="2022-06-16T11:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassSetUp -->
+        <test-method status="PASS" signature="verifyLoginAffirmative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@3c9d0b9d]" name="verifyLoginAffirmative" duration-ms="6185" started-at="2022-06-16T11:31:32Z" data-provider="ValidAuthentication" finished-at="2022-06-16T11:31:38Z">
           <params>
             <param index="0">
               <value>
@@ -27,18 +67,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginAffirmative -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="screenShot" is-config="true" duration-ms="3" started-at="2022-05-31T15:36:09Z" finished-at="2022-05-31T15:36:09Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyLoginTest@3c9d0b9d]" name="screenShot" is-config="true" duration-ms="0" started-at="2022-06-16T11:31:38Z" finished-at="2022-06-16T11:31:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginAffirmative status=SUCCESS method=VerifyLoginTest.verifyLoginAffirmative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@6b26e945] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginAffirmative status=SUCCESS method=VerifyLoginTest.verifyLoginAffirmative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@3c9d0b9d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="verifyLoginNegative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="verifyLoginNegative" duration-ms="3436" started-at="2022-05-31T15:36:09Z" data-provider="InvalidAuthentication" finished-at="2022-05-31T15:36:12Z">
+        <test-method status="PASS" signature="verifyLoginNegative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@3c9d0b9d]" name="verifyLoginNegative" duration-ms="3576" started-at="2022-06-16T11:31:38Z" data-provider="InvalidAuthentication" finished-at="2022-06-16T11:31:42Z">
           <params>
             <param index="0">
               <value>
@@ -54,22 +94,196 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginNegative -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="afterMethod" is-config="true" duration-ms="615" started-at="2022-05-31T15:36:12Z" finished-at="2022-05-31T15:36:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyLoginTest@6b26e945]" name="screenShot" is-config="true" duration-ms="0" started-at="2022-05-31T15:36:12Z" finished-at="2022-05-31T15:36:12Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyLoginTest@3c9d0b9d]" name="screenShot" is-config="true" duration-ms="0" started-at="2022-06-16T11:31:42Z" finished-at="2022-06-16T11:31:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginNegative status=SUCCESS method=VerifyLoginTest.verifyLoginNegative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@6b26e945] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginNegative status=SUCCESS method=VerifyLoginTest.verifyLoginNegative(java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyLoginTest@3c9d0b9d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.VerifyLoginTest@3c9d0b9d]" name="afterMethod" is-config="true" duration-ms="613" started-at="2022-06-16T11:31:42Z" finished-at="2022-06-16T11:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- scripts.VerifyLoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="scripts.VerifyCartProductTest">
+        <test-method status="PASS" signature="beforeClassSetUp()[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8]" name="beforeClassSetUp" is-config="true" duration-ms="12985" started-at="2022-06-16T11:30:28Z" finished-at="2022-06-16T11:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassSetUp -->
+        <test-method status="PASS" signature="verifyAddedProductsInUserCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, int, int)[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8]" name="verifyAddedProductsInUserCart" duration-ms="7881" started-at="2022-06-16T11:30:42Z" data-provider="ProductDetails" finished-at="2022-06-16T11:30:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Desktops]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HP TouchSmart]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sport]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Brunton Eclipse Compass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Furniture]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ARILD Chair]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedProductsInUserCart -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8]" name="screenShot" is-config="true" duration-ms="1" started-at="2022-06-16T11:30:50Z" finished-at="2022-06-16T11:30:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddedProductsInUserCart status=SUCCESS method=VerifyCartProductTest.verifyAddedProductsInUserCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, int, int)[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="VerifyCheckoutBillingAddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8]" name="VerifyCheckoutBillingAddress" duration-ms="4546" started-at="2022-06-16T11:30:50Z" data-provider="UserCheckoutDetails" depends-on-methods="scripts.VerifyCartProductTest.verifyAddedProductsInUserCart" finished-at="2022-06-16T11:30:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saddam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Husain]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[saddamali13786@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[380055]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Gujarat]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ahmedabad]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[c-101, Al arsh-3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[near Kadri Party Plot]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9627841412]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckoutBillingAddress -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8]" name="screenShot" is-config="true" duration-ms="0" started-at="2022-06-16T11:30:54Z" finished-at="2022-06-16T11:30:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCheckoutBillingAddress status=SUCCESS method=VerifyCartProductTest.VerifyCheckoutBillingAddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="verifyFinalPriceOfAddedProducts()[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8]" name="verifyFinalPriceOfAddedProducts" duration-ms="1935" started-at="2022-06-16T11:30:54Z" depends-on-methods="scripts.VerifyCartProductTest.VerifyCheckoutBillingAddress" finished-at="2022-06-16T11:30:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinalPriceOfAddedProducts -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8]" name="screenShot" is-config="true" duration-ms="0" started-at="2022-06-16T11:30:56Z" finished-at="2022-06-16T11:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFinalPriceOfAddedProducts status=SUCCESS method=VerifyCartProductTest.verifyFinalPriceOfAddedProducts()[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="verifyFinalOrderPlaced()[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8]" name="verifyFinalOrderPlaced" duration-ms="12496" started-at="2022-06-16T11:30:56Z" depends-on-methods="scripts.VerifyCartProductTest.verifyFinalPriceOfAddedProducts" finished-at="2022-06-16T11:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinalOrderPlaced -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8]" name="screenShot" is-config="true" duration-ms="0" started-at="2022-06-16T11:31:09Z" finished-at="2022-06-16T11:31:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFinalOrderPlaced status=SUCCESS method=VerifyCartProductTest.verifyFinalOrderPlaced()[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.VerifyCartProductTest@318ba8c8]" name="afterMethod" is-config="true" duration-ms="618" started-at="2022-06-16T11:31:09Z" finished-at="2022-06-16T11:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scripts.VerifyCartProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

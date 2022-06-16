@@ -3,6 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="scripts.VerifyCartProductTest"/>
+      <class name="scripts.VerifyRegisterationTest"/>
       <class name="scripts.VerifyLoginTest"/>
     </classes>
   </test> <!-- Test -->
